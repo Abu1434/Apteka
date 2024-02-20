@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    margin-top: 62px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1F1534;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.row .col-6 h1 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    width: 421.213px;
+    margin-top: 93px;
+}
+
+.col-6 p {
+    margin-top: 30px;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 152.381% */
+    width: 440px;
+}
+
+.col-6 button {
+    margin-top: 40px;
+    border-radius: 55px;
+    background: #458FF6;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 16px 37px;
+    width: 197.753px;
+}
+
+ul li a:hover {
+    opacity: 1;
+}
+
+.col-6 button:active {
+    opacity: 0.5;
+    color: aqua;
+}
+
+main h3 {
+    margin-top: 96px;
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 56px; /* 155.556% */
+}
+
+.main-text {
+    margin-top: 61px;
+    color: #7D7987;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.row-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 40px;
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 20px;
+    background: #ffffff;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.row-2 .card h4 {
+    margin-top: 23.36px;
+    margin-left: 41px;
+    width: 212.8px;
+    height: 60.113px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 233.333% */
+}
+
+
+.row-2 .card p {
+    margin-left: 41px;
+    width: 280.25px;
+    height: 87.578px;
+    flex-shrink: 0;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+}
+
+.row-2 .card img {
+    margin-top: 68px;
+    margin-left: 41px;
+}
+
+main .row-2 button {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background: #FFF;
+    color: #458FF6;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section h3 {
+    margin-top: 106px;
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 155.556% */
+}
+
+.row-3 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-2 {
+    align-items: center;
+    width: 380px;
+    height: 504px;
+    flex-shrink: 0;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.row-3 .card-2 img {
+    width: 380px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.row-3 .card-2 h4 {
+    margin-top: 30px;
+    color: #000;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+}
+
+.row-3 .card-2 p {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 266px;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+}
+
+.row-3 .card-2 a {
+    margin-left: 30px;
+    margin-top: 18px;
+    color: #4089ED;
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 164.706% */
+    text-decoration: none;
+}
+
+.h4-1 {
+    margin-left: 30px;
+    width: 251px;
+    height: 64px;
+}
+
+.h4-2 {
+    margin-left: 30px;
+    width: 265px;
+    height: 64px;
+}
+
+.h4-3 {
+    margin-left: 30px;
+    width: 245px;
+    height: 64px;
+}
+
+svg {
+    margin-left: 14px ;
+    margin-top: 29px;
+    width: 14.143px;
+    height: 9px;
+    flex-shrink: 0;
+}
+
+.img5 {
+    height: 98px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+
+
+
+.footer-logo p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.fotter-logo-text {
+    margin-top: 22px;
+    color: #FFF;
+    width: 386px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+}
+
+
+.col-5 h4 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 97px;
+}
+
+.col-5 ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+
+
+.col-5 ul li a {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+
+
+.fa-brands {
+    font-size: 45px;
+    color: white;
+}
+
+
+.footer-icons {
+    display: flex;
+    gap: 14px;
+}
+
+
+
+
+.footer-logo span {
+    color: #5B9BF3;
+    font-family: Mulish;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 32px;
+    text-align: center;
+    /* width: 16.8px; */
+    /* height: 32px; */
+    background-color: white;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 106px;
+    height: 325px;
+    width: 100%;
+    padding: 0 210px;
+    padding-top: 116px;
+    padding-bottom: 95px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.col-5 ul {
+    display: block;
+}
